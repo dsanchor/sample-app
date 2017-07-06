@@ -16,5 +16,8 @@
       		<scope>test</scope>
     	</dependency>
   </dependencies>
+  <build>
+    <finalName>sample-app</finalName>
+  </build>
 </project>
 
