@@ -578,7 +578,7 @@
 
     <init-param>
         <param-name>spnego.allow.basic</param-name>
-        <param-value>true</param-value>
+        <param-value>false</param-value>
     </init-param>
     
     <init-param>
@@ -588,7 +588,7 @@
     
     <init-param>
         <param-name>spnego.allow.unsecure.basic</param-name>
-        <param-value>true</param-value>
+        <param-value>false</param-value>
     </init-param>
     
     <init-param>
