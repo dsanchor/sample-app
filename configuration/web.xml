@@ -608,12 +608,12 @@
     
     <init-param>
         <param-name>spnego.preauth.username</param-name>
-        <param-value>xxx</param-value>
+        <param-value>${SPNEGO_PREAUTH_USER}</param-value>
     </init-param>
     
     <init-param>
         <param-name>spnego.preauth.password</param-name>
-        <param-value>xxx</param-value>
+        <param-value>${SPNEGO_PREAUTH_PASSWORD}</param-value>
     </init-param>
     
     <init-param>
