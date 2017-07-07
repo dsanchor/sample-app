@@ -23,10 +23,9 @@
     <!--
     <Manager pathname="" />
     -->
-
-<Resource name="jdbc/xxx" auth="Container"
-              type="javax.sql.DataSource" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
-              url="xxx"
-              username="xxx" password="xxx" maxActive="20" maxIdle="10"
-              maxWait="-1"/>
+<Resource name="${DS_JNDI}" auth="Container"
+              type="javax.sql.DataSource" driverClassName="${DRIVER_CLASS}"
+              url="${DB_CONNECTION_URL}"
+              username="${DB_USERNAME}" password="${DB_PASSWORD}" maxActive="${DB_MAX_ACTIVE}" maxIdle="${DB_MAX_IDLE}"
+              maxWait="${DB_MAX_WAIT}"/>
 </Context>
