@@ -603,9 +603,9 @@
     
     <init-param>
         <param-name>spnego.login.conf</param-name>
-        <param-value>${SPNEGO_CONF}/login.conf</param-value>
+        <param-value>/opt/webserver/conf/login.conf</param-value>
     </init-param>
-    
+    <!--
     <init-param>
         <param-name>spnego.preauth.username</param-name>
         <param-value>${SPNEGO_PREAUTH_USER}</param-value>
@@ -615,7 +615,7 @@
         <param-name>spnego.preauth.password</param-name>
         <param-value>${SPNEGO_PREAUTH_PASSWORD}</param-value>
     </init-param>
-    
+    -->
     <init-param>
         <param-name>spnego.login.server.module</param-name>
         <param-value>spnego-server</param-value>
