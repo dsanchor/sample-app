@@ -598,12 +598,12 @@
     
     <init-param>
         <param-name>spnego.krb5.conf</param-name>
-        <param-value>/opt/webserver/conf/krb5.conf</param-value>
+        <param-value>${SPNEGO_CONF}/krb5.conf</param-value>
     </init-param>
     
     <init-param>
         <param-name>spnego.login.conf</param-name>
-        <param-value>/opt/webserver/conf/login.conf</param-value>
+        <param-value>${SPNEGO_CONF}/login.conf</param-value>
     </init-param>
     
     <init-param>
