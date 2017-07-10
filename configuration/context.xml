@@ -23,7 +23,7 @@
     <!--
     <Manager pathname="" />
     -->
-<Resource name="jdbc/dpipruebas" auth="Container"
+<Resource name="${DS_JNDI}" auth="Container"
               type="javax.sql.DataSource" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
               url="jdbc:sqlserver:// 172.16.0.24:1433;databaseName=dpipruebas"
               username="dpireportes" password="dpireportes" maxActive="20" maxIdle="10"
